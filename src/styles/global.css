@@ -1,20 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=PT+Sans&family=Raleway:wght@300&family=Source+Sans+Pro&display=swap');
-
 * {
   margin: 0;
   padding: 0;
-  text-decoration: none;
   font-family: 'Julius Sans One', sans-serif;
   font-family: 'PT Sans', sans-serif;
   font-family: 'Raleway', sans-serif;
   font-family: 'Source Sans Pro', sans-serif;
   color: white;
 }
+
 html, body {
   min-height: 100%;
+  padding-top: 30px;
 }
+
 body {
-  background: radial-gradient(at top left, rgba(146,43,225,1) 0%, rgba(43,9,107,1) 100%);
+  background: radial-gradient(at top left, rgb(21, 20, 49) 0%, rgba(43,9,107,1) 100%);
   background-repeat: no-repeat;
 }
 p {
@@ -22,19 +23,70 @@ p {
   line-height: 1.5em;
 }
 
-/* layout & nav */
 .layout {
   max-width: 1200px;
   margin: 0 auto;
+  display: flex;
 }
+.content{
+  flex: 4;
+}
+
 nav {
-  display:grid;
+  display:flex;
   grid-template-columns: 1fr 1fr;
-  margin: 40px auto;
+  margin: 4px auto;
+  flex:1;
+  background-color: grey;
+  flex-wrap: wrap;
 }
-nav .links {
-  display: inline-block;
-  text-align: right;
+
+.navhome{
+  background-color: rgb(60, 60, 107);
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  text-align:center;
+  margin-top: 50px;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.navabout{
+  border: 3px solid rgb(96, 109, 221);
+  margin-left: 80px;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  text-align:center;
+  margin-top: 50px;
+  text-decoration: none;
+  background: radial-gradient(at top left, rgb(135, 135, 233) 100%);
+
+}
+
+.navexp{
+  background-color: rgb(60, 60, 107);
+  border: 3px solid black;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  text-align:center;
+  margin-top: 50px;
+  text-decoration: none;
+}
+
+.navproj{
+  background-color: rgb(135, 135, 233);
+  border: 3px solid rgb(96, 109, 221);
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  text-align:center;
+  margin-top: 50px;
+  text-decoration: none;
+  margin-left: 80px;
+
 }
 
 nav h1 {
@@ -46,16 +98,15 @@ nav a {
   margin-left: 20px;
   font-weight: 400;
   padding-bottom: 8px;
-  /* border: 3px solid transparent; */
+  border: 3px solid transparent;
 }
 nav a:hover {
-  border-color: red;
+  border-color: black;
   background-color: blue;
 }
-footer{
-  text-align: center;
-  color: #bbb;
-  margin: 40px auto;
+nav a:active{
+  border-color: red;
+  background-color: purple;
 }
 
 

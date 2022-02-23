@@ -1,7 +1,7 @@
 import * as React from "react"
 import Layout from "../components/Layout"
 import * as styles from "../styles/home.module.css"
-import { Link } from "gatsby"
+import { graphql, Link } from "gatsby"
 
 const IndexPage = () => {
   return (
@@ -9,22 +9,23 @@ const IndexPage = () => {
       <section className={styles.header}>
         <div>
           <h2>
-            Design
+            Seong Joo Yoon
           </h2>
           <h3>
-            UI and UX Deployment
+            personal website
           </h3>
           <p>
-            Web developer based in Manchester
+            canada
           </p>
           <Link className={styles.btn} to='/projects'>
             My portfolio projects
           </Link>
         </div>
-        <img src="/facebook.png" alt="" style={{ width: '100px', height: '200px'}}></img>
+        <img src="/facebook.png" alt="" style={{ width: '100px', height: '100px'}}></img>
       </section>
     </Layout>
   )
 }
  
 export default IndexPage
+
