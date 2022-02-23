@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav>
         <h1>
-            Web Warrior
+            Seong Joo
         </h1>
         <div className='links'>
             <Link to='/'>Home</Link>
