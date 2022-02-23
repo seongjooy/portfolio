@@ -1,14 +1,14 @@
 import React from 'react'
 import Layout from '../../components/Layout'
-import * as styles from '../../styles/projects.module.css'
+import * as styles from '../../styles/home.module.css'
 
 
 const Projects = () => {
   return (
       <Layout>
-            <div className={styles.portfolio}>
+            <div className={styles.header} data-aos='slide-right'>
               <h2>
-                Projects
+                My Projects
               </h2>
               <h3>
                 Projects and what I've created

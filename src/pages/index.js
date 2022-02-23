@@ -1,11 +1,17 @@
 import * as React from "react"
 import Layout from "../components/Layout"
 import * as styles from "../styles/home.module.css"
+import Aos from "aos"
+import 'aos/dist/aos.css'
 
 const IndexPage = () => {
+  React.useEffect(() => {
+    Aos.init({duration: 500 });
+  }, [])
+
   return (
     <Layout>
-      <section className={styles.header}>
+      <section className={styles.header} data-aos='fade-down' data-aos-duration="1000">
         <div>
           <h2>Seong Joo Yoon</h2>
           <h4>Student at the University of Toronto</h4>

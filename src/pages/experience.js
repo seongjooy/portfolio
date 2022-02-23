@@ -6,10 +6,10 @@ import * as styles from "../styles/home.module.css"
 const experience = () => {
   return (
       <Layout>
-          <div className={styles.header}>
+          <div className={styles.header} data-aos='slide-right'>
 
-          <h2>Experience</h2>
-    
+          <h2>My Experience</h2>
+
           </div>
       </Layout>
   )
