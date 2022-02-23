@@ -12,10 +12,10 @@ const Layout = ({children}) => {
             {children}
         </div>
         <nav className='nav'>
-            <Link className='navhome' to='/'>Home</Link>
-            <Link className='navabout' to='/about'>About</Link>
-            <Link className='navexp' to='/experience'>Experience</Link>
-            <Link className='navproj' to='/projects'>Projects</Link>
+            <Link className='navbutton' to='/'>Home</Link>
+            <Link className='navbutton' to='/about'>About</Link>
+            <Link className='navbutton' to='/projects'>Projects</Link>
+            <Link className='navbutton' to='/experience'>Experience</Link>
         </nav>
     </div>
   )
