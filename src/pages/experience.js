@@ -46,10 +46,6 @@ const experience = () => {
           </div>
         </div>
       </div>
-
-      <div>
-        <img src="/email.png"></img>
-      </div>
     </Layout>
   );
 };
