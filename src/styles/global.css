@@ -18,7 +18,7 @@ html, body {
 }
 
 body {
-  background: radial-gradient(at top left, rgb(28, 23, 83) 20%, rgb(7, 6, 63) 100%);
+  background: radial-gradient(at top left, rgb(28, 23, 83) 20%, rgb(27, 24, 58) 100%);
   background-repeat: no-repeat;
 }
 
@@ -51,7 +51,7 @@ nav {
   flex:1.5;
   flex-wrap: wrap;
   border-radius: 15px;
-  height: 50vh;
+  height: 80px;
   padding-left: 50px;
   padding-top: 20px;
 }

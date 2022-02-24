@@ -1,9 +1,7 @@
 import React, { Children } from 'react'
-import Navbar from './Navbar'
 import * as styles from '../styles/global.css'
 import './Layout.css'
 import { Link } from 'gatsby'
-
 
 const Layout = ({children}) => {
   return (
@@ -17,6 +15,9 @@ const Layout = ({children}) => {
             <Link className='navbutton' to='/projects'>Projects</Link>
             <Link className='navbutton' to='/experience'>Experience</Link>
         </nav>
+
+        
+
     </div>
   )
 }

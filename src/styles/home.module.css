@@ -1,43 +1,52 @@
 .header {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 40px;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .header h2 {
-    font-size: 4em;
-    padding-bottom: 10px;
-    
-  }
-  .header h4 {
-    font-size: 18px;
-    font-weight: 400;
-    margin-top: 5px;
-    padding-left: 10px;
-  }
-
-  .header h5{
-    padding-left: 10px;
-    padding-top: 10px;
-    font-size: 15px;
-  }
-
-
-  .btn {
-    display: inline-block;
-    background: rgb(209, 143, 143);
-    padding: 10px 16px;
-    border-radius: 10px;
-    margin-top: 20px;
-    font-weight: 500;
-  }
-
-  .btn:hover{
-    background: rgb(209, 143, 143, 0.5);
-    cursor:pointer;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
+.header h2 {
+  font-size: 4em;
+  padding-bottom: 10px;
+}
+.header h4 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 5px;
+  padding-left: 10px;
+}
 
+.header h5 {
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+.projects-container {
+  display: flex;
+}
+.tio {
+  flex: 1;
+}
+.top-left {
+  /* flex: 1; */
+  background-color: red;
+}
+
+.top-right {
+  /* flex: 1; */
+  background-color: green;
+  font-size: 200px;
+}
+
+.bot-left {
+  /* flex: 1;  */
+  background-color: blue;
+}
+
+.bot-right {
+  /* flex: 1; */
+  background-color: yellow;
+}
