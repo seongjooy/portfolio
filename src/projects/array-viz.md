@@ -1,7 +1,7 @@
 ---
-title: The Dojo Coffee House
-stack: HTML & CSS
-slug: the-dojo-coffee-house
+title: Dynamic Array Visualizer in Memory
+stack: Javascript, React, HTML, CSS
+slug: array-viz
 thumb: ../images/facebook.png
 featuredImg: ../images/instagram.png
 ---

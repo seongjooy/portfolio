@@ -10,12 +10,6 @@ const Projects = ({ data }) => {
     <Layout>
       <div className={styles.header} data-aos="slide-right">
         My Projects
-        <div className={styles.container}>
-          <div className={styles.topleft}>fdjkladfkfsdaaf</div>
-          <div className={styles.topright}>ddfknfdss</div>
-          <div className={styles.botleft}>fds,masfd</div>
-          <div className={styles.botright}>dfsknjlkdfs</div>
-        </div>
         <div className={styles.projects}>
           {projects.map((project) => (
             <Link to={"/projects" + project.frontmatter.slug} key={project.id}>

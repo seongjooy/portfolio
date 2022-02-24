@@ -1,5 +1,5 @@
 ---
-title: Real Kitchen Food
+title: An AI-model Developer Framework
 stack: Python
 slug: real-kitchen-food
 thumb: ../images/facebook.png

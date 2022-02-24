@@ -4,31 +4,22 @@
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-}
-
-.topleft {
-  background-color: red;
+  display: grid;
 }
 
 .projects {
   /* background-color: blue; */
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  width: 400px;
-  height: 400px;
-  grid-gap: 200px;
-  text-decoration: none;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 100px;
 }
 
 .projects h3 {
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
-  text-decoration: none;
 }
 
 .projects p {
-  font-size: 10px;
+  font-size: 15px;
   text-align: center;
 }
