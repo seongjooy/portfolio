@@ -7,3 +7,67 @@
   padding-top: 10px;
   font-size: 20px;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.job1 {
+  padding-top: 20px;
+  width: 150vh;
+  height: 320px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.job1left {
+  flex: 2.5;
+  background-color: white;
+  border-radius: 20px;
+  border: 5px solid rgb(63, 44, 172);
+  color: black;
+  padding: 20px;
+}
+
+.job1right {
+  flex: 1;
+  background-color: white;
+  border-radius: 20px;
+  margin-left: 40px;
+  border: 5px solid rgb(63, 44, 172);
+  color: black;
+  padding: 20px;
+}
+
+.job2 {
+  padding-top: 20px;
+  width: 150vh;
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+}
+
+.job2left {
+  flex: 2.5;
+  background-color: white;
+  border-radius: 20px;
+  border: 5px solid rgb(63, 44, 172);
+  color: black;
+  padding: 20px;
+}
+
+.job2right {
+  flex: 1;
+  background-color: white;
+  border-radius: 20px;
+  margin-left: 40px;
+  border: 5px solid rgb(63, 44, 172);
+  color: black;
+  padding: 20px;
+}
+
+h2 {
+  color: black;
+}
