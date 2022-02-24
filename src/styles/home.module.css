@@ -2,9 +2,10 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 40px;
-  align-items: center;
   display: flex;
   flex-direction: column;
+  text-align: left;
+  padding-top: 20px;
 }
 
 .header h2 {
@@ -24,29 +25,32 @@
   font-size: 15px;
 }
 
-.projects-container {
+img {
+  height: 200px;
+  width: 200px;
+  padding-left: 100px;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.container {
   display: flex;
+  flex-direction: row;
 }
-.tio {
+
+.left {
   flex: 1;
-}
-.top-left {
-  /* flex: 1; */
-  background-color: red;
+  width: 100px;
+  min-height: 100px;
 }
 
-.top-right {
-  /* flex: 1; */
+.right {
+  flex: 1;
+  margin-left: 70px;
+  margin-top: 20px;
   background-color: green;
-  font-size: 200px;
-}
-
-.bot-left {
-  /* flex: 1;  */
-  background-color: blue;
-}
-
-.bot-right {
-  /* flex: 1; */
-  background-color: yellow;
+  padding-top: 30px;
+  width: 100px;
+  height: 600px;
+  border-radius: 20px;
 }

@@ -6,11 +6,11 @@ import Navbar from "./Navbar";
 const Layout = ({ children }) => {
   return (
     <div className="layout">
-      <div className="top-layer">
-        <div className="page-title"> Title Goes Here</div>
-        <Navbar></Navbar>
-      </div>
+      <Navbar />
       <div className="content">{children}</div>
+      <footer className="footer" data-aos="fade-up">
+        Seong Joo Yoon, 2022.
+      </footer>
     </div>
   );
 };

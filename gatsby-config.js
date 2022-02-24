@@ -2,7 +2,10 @@ module.exports = {
   siteMetadata: {
     title: `Seong Joo Yoon`,
     description: "Personal Porfolio",
-    copyright: "this is copyrighted?",
+    home: "Home",
+    about: "About",
+    projects: "Projects",
+    experience: "Experience",
     siteUrl: `https://www.yourdomain.tld`,
   },
   plugins: [

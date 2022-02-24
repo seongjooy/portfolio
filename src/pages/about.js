@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/Layout";
-import * as styles from "../styles/home.module.css";
+import * as styles from "../styles/about.module.css";
 
 const About = () => {
   return (

@@ -6,8 +6,6 @@ import Img from "gatsby-image";
 
 const Projects = ({ data }) => {
   const projects = data.allMarkdownRemark.nodes;
-  console.log(data);
-  const val = true;
   return (
     <Layout>
       <div className={styles.header} data-aos="slide-right">
