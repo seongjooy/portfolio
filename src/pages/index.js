@@ -3,8 +3,13 @@ import Layout from "../components/Layout";
 import * as styles from "../styles/home.module.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { graphql } from "gatsby";
 
-const IndexPage = () => {
+const IndexPage = ({ data }) => {
+  console.log(data);
+
+  const { title, description } = data.site.siteMetadata;
+
   React.useEffect(() => {
     Aos.init({ duration: 500 });
   }, []);
@@ -19,7 +24,7 @@ const IndexPage = () => {
         <div>
           <h2>Seong Joo Yoon</h2>
           <h4>Student at the University of Toronto</h4>
-          <h4>BASc, Computer Engineering</h4>
+          <h4>B.A.Sc, Computer Engineering</h4>
           <h5>seongjooyoon@gmail.com | seongjoo.yoon@mail.utoronto.ca</h5>
         </div>
 
@@ -28,6 +33,10 @@ const IndexPage = () => {
           alt=""
           style={{ width: "200px", height: "200px" }}
         ></img>
+
+        <p>
+          {title} - {description}
+        </p>
 
         <div className="intro">
           <p>
@@ -46,3 +55,14 @@ const IndexPage = () => {
 };
 
 export default IndexPage;
+
+export const query = graphql`
+  query SiteInfo {
+    site {
+      siteMetadata {
+        title
+        description
+      }
+    }
+  }
+`;

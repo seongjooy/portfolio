@@ -21,11 +21,23 @@
   background-color: red;
 }
 
-.topright {
+.projects {
+  /* background-color: blue; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 400px;
+  height: 400px;
+  grid-gap: 200px;
+  text-decoration: none;
 }
 
-.botleft {
+.projects h3 {
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
 }
 
-.botright {
+.projects p {
+  font-size: 10px;
+  text-align: center;
 }

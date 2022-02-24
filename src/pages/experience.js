@@ -7,7 +7,10 @@ const experience = () => {
     <Layout>
       <div className={styles.header} data-aos="slide-right">
         <h2>My Experience</h2>
-        <h4>fdslkjfs</h4>
+      </div>
+      <div>
+        my new
+        <img src="/email.png"></img>
       </div>
     </Layout>
   );
