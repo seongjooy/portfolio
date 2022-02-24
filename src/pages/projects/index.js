@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../../components/Layout";
-import * as styles from "../../styles/home.module.css";
+import * as styles from "../../styles/projects.module.css";
 
 const Projects = () => {
   const val = true;
@@ -8,11 +8,11 @@ const Projects = () => {
     <Layout>
       <div className={styles.header} data-aos="slide-right">
         <h2>My Projects</h2>
-        <div className="projects-container">
-          <div className="top-left tio">fdjkladfkfsdaaf</div>
-          <div className="top-right tio">ddfknfdss</div>
-          <div className="bot-left tio">fds,masfd</div>
-          <div className="bot-right tio">dfsknjlkdfs</div>
+        <div className={styles.container}>
+          <div className={styles.topleft}>fdjkladfkfsdaaf</div>
+          <div className={styles.topright}>ddfknfdss</div>
+          <div className={styles.botleft}>fds,masfd</div>
+          <div className={styles.botright}>dfsknjlkdfs</div>
         </div>
       </div>
     </Layout>
