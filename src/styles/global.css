@@ -1,24 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Lato:wght@300&family=PT+Sans&family=Raleway:wght@300&family=Source+Sans+Pro&display=swap');* {
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Lato:wght@300&family=PT+Sans&family=Raleway:wght@300&family=Source+Sans+Pro&display=swap");
+* {
   margin: 0;
   padding: 0;
-  font-family: 'Julius Sans One', sans-serif;
-  font-family: 'Lato', sans-serif;
-  font-family: 'PT Sans', sans-serif;
-  font-family: 'Raleway', sans-serif;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "PT Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   color: white;
 }
 
-html, body {
+html,
+body {
   min-height: 100%;
-  padding-top: 30px;
-  overflow: scroll;
   height: 130vh;
   background-color: rgb(28, 23, 83);
 }
 
 body {
-  background: radial-gradient(at top left, rgb(28, 23, 83) 20%, rgb(27, 24, 58) 100%);
+  background: radial-gradient(
+    at top left,
+    rgb(28, 23, 83) 20%,
+    rgb(27, 24, 58) 100%
+  );
   background-repeat: no-repeat;
 }
 
@@ -29,47 +33,33 @@ p {
 }
 
 .layout {
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 1400px;
+  margin-top: 50px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 50px;
+}
+
+.top-layer {
   display: flex;
+  flex-direction: row;
 }
 
-.content{
-  flex: 1;
+.page-title {
+  padding-left: 30px;
+  padding-right: 100px;
+  font-size: 4em;
 }
 
-.intro{
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-}
-
-nav {
-  display:flex;
-  grid-template-columns: 1fr 1fr;
-  margin: 4px auto;
-  flex:1.5;
-  flex-wrap: wrap;
-  border-radius: 15px;
-  height: 80px;
-  padding-left: 50px;
-  padding-top: 20px;
-}
-
-nav h1 {
-    text-align: center;
-}
-
-nav a {
-  display: inline-block;
-  margin-left: 20px;
-  font-weight: 400;
-  padding-bottom: 8px;
-  border: 5px solid transparent;
-  font-size: 20px;
+.nav {
+  font-size: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 20px;
 }
 
 .navbutton {
+  margin-left: 20px;
   align-items: center;
   background-color: #fff;
   border: 2px solid #000;
@@ -78,18 +68,18 @@ nav a {
   cursor: pointer;
   display: inline-flex;
   fill: #000;
-  font-family: Inter,sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 16px;
   font-weight: 600;
   height: 48px;
   justify-content: center;
-  letter-spacing: -.8px;
+  letter-spacing: -0.8px;
   line-height: 24px;
   min-width: 140px;
   padding: 0 17px;
   text-align: center;
   text-decoration: none;
-  transition: all .3s;
+  transition: all 0.3s;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;

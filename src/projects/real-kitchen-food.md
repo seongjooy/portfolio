@@ -2,6 +2,8 @@
 title: Real Kitchen Food
 stack: Python
 slug: real-kitchen-food
+thumb: ../images/facebook.png
+featuredImg: ../images/instagram.png
 ---
 
 **Lorem ninja ipsum dolor**
