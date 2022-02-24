@@ -1,3 +1,9 @@
-header h2 {
-  font-size: 200px;
+.header {
+  font-size: 40px;
+  padding-top: 20px;
+}
+
+.intro {
+  padding-top: 10px;
+  font-size: 20px;
 }

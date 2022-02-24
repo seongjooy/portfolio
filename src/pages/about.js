@@ -7,20 +7,20 @@ const About = () => {
     <div>
       <Layout>
         <div className={styles.header} data-aos="slide-right">
-          <h2>About Me</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non
-            ma ssa cursus, tempus libero quis, feugiat nisl. Aliquam vestibulum
-            luctus consectetur. Class ptent taciti sociosqu ad litora torquent
-            per conubia nostra, per inceptos himenaeos. Sed n ec tristique odio.
-            Cras leo dolor, hendrerit at diam quis, tincidunt elementum tortor.
-            Cras tincidunt ut sapien sit amet feugiat. Proin t empus eros ac
-            dolor laoreet accumsan. Vestibu lum quis est ut justo imperdiet
-            ornare. Quisq ue in ipsum tincidunt sapien posuere fermentu m sed
-            nec libero. Donec porta ipsum ut ipsum
-          </p>
+          About Me
         </div>
-        <div className="test">fdsnlk;jfdnsa</div>
+        <div className={styles.intro} data-aos="slide-right">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tempor
+          enim varius diam egestas, id lobortis eros elementum. Integer sit amet
+          interdum risus. Aliquam ullamcorper, ipsum id ornare porttitor, magna
+          turpis varius nisi, id interdum justo nisl quis risus. Curabitur
+          iaculis neque diam, in eleifend ex viverra eget. Curabitur blandit est
+          vitae est ultrices, eget feugiat enim volutpat. Phasellus molestie
+          finibus augue feugiat pharetra. Praesent dictum eget tellus in
+          sollicitudin. Ut enim purus, euismod vitae faucibus et, lobortis a
+          felis. Nunc elit urna, congue a gravida non, bibendum nec quam. Nam
+          comm
+        </div>
       </Layout>
     </div>
   );

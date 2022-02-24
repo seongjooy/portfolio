@@ -6,10 +6,9 @@ const experience = () => {
   return (
     <Layout>
       <div className={styles.header} data-aos="slide-right">
-        <h2>My Experience</h2>
+        My Experience
       </div>
       <div>
-        my new
         <img src="/email.png"></img>
       </div>
     </Layout>
