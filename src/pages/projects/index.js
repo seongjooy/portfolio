@@ -15,27 +15,20 @@ const Projects = ({ data }) => {
           data-aos="flip-right"
           data-aos-duration="1500"
         >
-          <div className={styles.project}>project_1</div>
-          <div className={styles.project}>project_2</div>
-          <div className={styles.project}>project_3</div>
-          <div className={styles.project}>project_4</div>
-          <div className={styles.project}>project_5</div>
-          <div className={styles.project}>project_6</div>
-          <div className={styles.project}>project_7</div>
-          <div className={styles.project}>project_8</div>
-        </div>
-        <div className={styles.projects}>
-          {projects.map((project) => (
-            <Link to={"/projects" + project.frontmatter.slug} key={project.id}>
-              <div>
-                <Img
-                  fluid={project.frontmatter.thumb.childImageSharp.fluid}
-                ></Img>
-                <h3>{project.frontmatter.title}</h3>
-                <p>{project.frontmatter.stack}</p>
-              </div>
-            </Link>
-          ))}
+          <div className={styles.project}>
+            Geographic Information System Mapper
+          </div>
+          <div className={styles.project}>Array Visualizer in Memory</div>
+          <div className={styles.project}>
+            ML Model Development Application Interface
+          </div>
+          <div className={styles.project}>
+            Prediction of Septic Shock using XGBoost
+          </div>
+          <div className={styles.project}>Capstone</div>
+          <div className={styles.project}>Neural Network From Scratch</div>
+          <div className={styles.project}>World Cup Draw Simulator</div>
+          <div className={styles.project}>Text-To-Code</div>
         </div>
       </div>
     </Layout>

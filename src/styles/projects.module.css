@@ -1,40 +1,26 @@
 .temp {
-  margin-top: 30px;
-  /* height: 1200px; */
+  margin-top: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 .project {
-  height: 300px;
+  height: 400px;
   width: 300px;
   margin: 50px;
-  background-color: grey;
+  background-color: white;
+  border-radius: 20px;
+  box-sizing: border-box;
+  border: 5px solid rgb(63, 44, 172);
+  color: black;
+  font-size: 25px;
+  padding: 20px;
+  font-weight: bold;
+  text-align: center;
 }
 
 .header {
   font-size: 40px;
   padding-top: 20px;
-}
-
-.container {
-  display: grid;
-}
-
-.projects {
-  /* background-color: blue; */
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 100px;
-}
-
-.projects h3 {
-  font-size: 20px;
-  text-align: center;
-}
-
-.projects p {
-  font-size: 15px;
-  text-align: center;
 }

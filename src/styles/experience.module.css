@@ -66,3 +66,9 @@
 h2 {
   color: black;
 }
+
+.certificates {
+  font-size: 40px;
+  padding-top: 50px;
+  height: 500px;
+}
