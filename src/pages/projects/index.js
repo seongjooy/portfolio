@@ -2,6 +2,7 @@ import { Link } from "gatsby";
 import React from "react";
 import Layout from "../../components/Layout";
 import * as styles from "../../styles/projects.module.css";
+import mapper from "./mapper";
 
 const Projects = () => {
   return (
@@ -10,12 +11,17 @@ const Projects = () => {
         My Projects
         <div
           className={styles.temp}
-          data-aos="flip-right"
+          data-aos="zoom-in-right"
           data-aos-duration="1500"
         >
           <div className={styles.project}>
             Geographic Information System Mapper
-            <img src="/gis-mapper.png"></img>
+            <Link to="/projects/mapper">
+              <img src="/gis-mapper.png" />
+            </Link>
+            <div className={styles.text}>
+              fndlsajkdfsadsfnbfds;aofbdaso;sdfbfadslhi Stack: C++, STL, Git
+            </div>
           </div>
           <div className={styles.project}>Array Visualizer in Memory</div>
           <div className={styles.project}>

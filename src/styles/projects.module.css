@@ -32,8 +32,18 @@ img {
   border-radius: 5px;
 }
 
+.text {
+  font-size: 15px;
+  color: black;
+  overflow-wrap: break-word;
+}
+
 img:hover {
   cursor: pointer;
   background-color: #fff;
   filter: opacity(70%);
+}
+
+img:active {
+  filter: brightness(80%);
 }
