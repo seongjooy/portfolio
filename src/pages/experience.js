@@ -17,11 +17,7 @@ const experience = () => {
             enim. Orci varius natoque penatibus et magnis dis parturient montes,
             nascetur ridiculus mus. Donec nec da
           </div>
-          <div
-            className={styles.job1right}
-            data-aos="slide-left"
-            data-aos-duration="700"
-          >
+          <div className={styles.job1right} data-aos="slide-left">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras em
             euismod, pellentesque
             <img src="/email.png"></img>
@@ -35,11 +31,7 @@ const experience = () => {
             enim. Orci varius natoque penatibus et magnis dis parturient montes,
             nascetur ridiculus mus. Donec nec da
           </div>
-          <div
-            className={styles.job2right}
-            data-aos="slide-left"
-            data-aos-duration="700"
-          >
+          <div className={styles.job2right} data-aos="slide-left">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras em
             euismod, pellentesque
             <img src="/email.png"></img>

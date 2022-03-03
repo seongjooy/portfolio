@@ -1,3 +1,18 @@
+.temp {
+  margin-top: 30px;
+  /* height: 1200px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project {
+  height: 300px;
+  width: 300px;
+  margin: 50px;
+  background-color: grey;
+}
+
 .header {
   font-size: 40px;
   padding-top: 20px;

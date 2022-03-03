@@ -10,6 +10,20 @@ const Projects = ({ data }) => {
     <Layout>
       <div className={styles.header} data-aos="slide-right">
         My Projects
+        <div
+          className={styles.temp}
+          data-aos="flip-right"
+          data-aos-duration="1500"
+        >
+          <div className={styles.project}>project_1</div>
+          <div className={styles.project}>project_2</div>
+          <div className={styles.project}>project_3</div>
+          <div className={styles.project}>project_4</div>
+          <div className={styles.project}>project_5</div>
+          <div className={styles.project}>project_6</div>
+          <div className={styles.project}>project_7</div>
+          <div className={styles.project}>project_8</div>
+        </div>
         <div className={styles.projects}>
           {projects.map((project) => (
             <Link to={"/projects" + project.frontmatter.slug} key={project.id}>
