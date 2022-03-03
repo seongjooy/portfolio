@@ -24,7 +24,7 @@ const IndexPage = () => {
               <h5>seongjooyoon@gmail.com | seongjoo.yoon@mail.utoronto.ca</h5>
             </div>
 
-            <img src="/github.png" alt=""></img>
+            <img className={styles.dp} src="/github.png" alt=""></img>
 
             <div className="intro">
               <p>
