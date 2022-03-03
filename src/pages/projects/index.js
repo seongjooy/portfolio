@@ -4,8 +4,7 @@ import Layout from "../../components/Layout";
 import * as styles from "../../styles/projects.module.css";
 import Img from "gatsby-image";
 
-const Projects = ({ data }) => {
-  const projects = data.allMarkdownRemark.nodes;
+const Projects = () => {
   return (
     <Layout>
       <div className={styles.header} data-aos="slide-right">
@@ -17,6 +16,7 @@ const Projects = ({ data }) => {
         >
           <div className={styles.project}>
             Geographic Information System Mapper
+            <img src="/gis-mapper.png"></img>
           </div>
           <div className={styles.project}>Array Visualizer in Memory</div>
           <div className={styles.project}>
@@ -28,7 +28,7 @@ const Projects = ({ data }) => {
           <div className={styles.project}>Capstone</div>
           <div className={styles.project}>Neural Network From Scratch</div>
           <div className={styles.project}>World Cup Draw Simulator</div>
-          <div className={styles.project}>Text-To-Code</div>
+          <div className={styles.project}>Text</div>
         </div>
       </div>
     </Layout>
@@ -36,25 +36,3 @@ const Projects = ({ data }) => {
 };
 
 export default Projects;
-
-export const query = graphql`
-  query ProjectsPage {
-    allMarkdownRemark {
-      nodes {
-        id
-        frontmatter {
-          title
-          stack
-          slug
-          thumb {
-            childImageSharp {
-              fluid {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-`;

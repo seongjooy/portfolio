@@ -38,8 +38,8 @@ const experience = () => {
           </div>
         </div>
       </div>
-      <div className={styles.certificates} data-aos="slide-right">
-        Certificates
+      <div className={styles.awards_certificates} data-aos="slide-right">
+        Awards/Certificates
       </div>
     </Layout>
   );
