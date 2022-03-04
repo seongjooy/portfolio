@@ -3,6 +3,7 @@ import Layout from "../components/Layout";
 import * as styles from "../styles/home.module.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { Link } from "gatsby";
 
 const IndexPage = () => {
   React.useEffect(() => {
@@ -38,8 +39,23 @@ const IndexPage = () => {
               </p>
             </div>
           </div>
-
-          <div className={styles.right}></div>
+          <div className={styles.right}>
+            <a href="https://github.com/seongjooy" target="_blank">
+              <img className={styles.btn} src="/github.png" />
+            </a>
+            <a
+              href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+              target="_blank"
+            >
+              <img className={styles.btn} src="/linkedin.png" />
+            </a>
+            <a href="https://www.instagram.com/_seongjoo/" target="_blank">
+              <img className={styles.btn} src="/instagram.png" />
+            </a>
+            <a href="https://www.facebook.com/stephanseongjoo/" target="_blank">
+              <img className={styles.btn} src="/facebook.png" />
+            </a>
+          </div>
         </div>
       </section>
     </Layout>

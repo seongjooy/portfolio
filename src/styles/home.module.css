@@ -49,4 +49,16 @@
   width: 100px;
   height: 600px;
   border-radius: 20px;
+  color: black;
+  padding: 40px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.btn {
+  width: 70px;
+  height: 70px;
 }

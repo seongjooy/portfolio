@@ -39,7 +39,18 @@ const experience = () => {
         </div>
       </div>
       <div className={styles.awards_certificates} data-aos="slide-right">
-        Awards/Certificates
+        Honours/Certificates
+      </div>
+      <div
+        className={styles.awards_certificates_container}
+        data-aos="slide-right"
+      >
+        <h2>Honours</h2>
+        <h3>University of Toronto, Dean's List</h3>
+        - 2019 Fall
+        <br /> - 2020 Winter <br />
+        <br />
+        <h2>Certificates</h2>
       </div>
     </Layout>
   );
