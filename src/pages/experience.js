@@ -11,7 +11,7 @@ const experience = () => {
       <div className={styles.container}>
         <div className={styles.job1}>
           <div className={styles.job1left} data-aos="slide-right">
-            <h2>Job Title 1</h2>
+            <h2>Job title 1</h2>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras em
             euismod, pellentesque orci a, ultrices dui. Pellentesque at dolor
             enim. Orci varius natoque penatibus et magnis dis parturient montes,

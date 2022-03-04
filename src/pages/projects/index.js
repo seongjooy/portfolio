@@ -20,15 +20,27 @@ const Projects = () => {
               <img src="/gis-mapper.png" />
             </Link>
             <div className={styles.text}>
-              fndlsajkdfsadsfnbfds;aofbdaso;sdfbfadslhi Stack: C++, STL, Git
+              Used C++ to develop a mapping software using OpenStreetMap API.
+              Used Git for version control amongst 2 other teammates. <br />
+              <br />
+              Stack: C++, STL, Git
+            </div>
+          </div>
+          <div className={styles.project}>
+            Septic Shock Predictor Using XGBoost
+            <Link to="/projects/mapper">
+              <img src="/gis-mapper.png" />
+            </Link>
+            <div className={styles.text}>
+              Developed
+              <br />
+              <br />
+              Stack: Python, Scikit-Learn, XGBoost
             </div>
           </div>
           <div className={styles.project}>Array Visualizer in Memory</div>
           <div className={styles.project}>
             ML Model Development Application Interface
-          </div>
-          <div className={styles.project}>
-            Prediction of Septic Shock using XGBoost
           </div>
           <div className={styles.project}>Capstone</div>
           <div className={styles.project}>Neural Network From Scratch</div>
