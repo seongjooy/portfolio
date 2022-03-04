@@ -3,7 +3,6 @@ import Layout from "../components/Layout";
 import * as styles from "../styles/home.module.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import { Link } from "gatsby";
 
 const IndexPage = () => {
   React.useEffect(() => {
@@ -40,21 +39,43 @@ const IndexPage = () => {
             </div>
           </div>
           <div className={styles.right}>
-            <a href="https://github.com/seongjooy" target="_blank">
-              <img className={styles.btn} src="/github.png" />
-            </a>
-            <a
-              href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
-              target="_blank"
-            >
-              <img className={styles.btn} src="/linkedin.png" />
-            </a>
-            <a href="https://www.instagram.com/_seongjoo/" target="_blank">
-              <img className={styles.btn} src="/instagram.png" />
-            </a>
-            <a href="https://www.facebook.com/stephanseongjoo/" target="_blank">
-              <img className={styles.btn} src="/facebook.png" />
-            </a>
+            <div className={styles.displaycontent}>
+              Toronto, Ontario, Canada.
+              <br /> Madrid, Spain.
+              <br /> Seoul, South Korea.
+              <br /> Istanbul, Turkey.
+              <br />
+            </div>
+            <div className={styles.contactlinks}>
+              <a
+                href="https://github.com/seongjooy"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img className={styles.btn} src="/github.png" alt="" />
+              </a>
+              <a
+                href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img className={styles.btn} src="/linkedin.png" alt="" />
+              </a>
+              <a
+                href="https://www.instagram.com/_seongjoo/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img className={styles.btn} src="/instagram.png" alt="" />
+              </a>
+              <a
+                href="https://www.facebook.com/stephanseongjoo/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img className={styles.btn} src="/facebook.png" alt="" />
+              </a>
+            </div>
           </div>
         </div>
       </section>

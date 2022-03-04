@@ -20,7 +20,7 @@ const experience = () => {
           <div className={styles.job1right} data-aos="slide-left">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras em
             euismod, pellentesque
-            <img src="/email.png"></img>
+            <img src="/email.png" alt=""></img>
           </div>
         </div>
         <div className={styles.job2}>
@@ -34,7 +34,7 @@ const experience = () => {
           <div className={styles.job2right} data-aos="slide-left">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras em
             euismod, pellentesque
-            <img src="/email.png"></img>
+            <img src="/email.png" alt=""></img>
           </div>
         </div>
       </div>
