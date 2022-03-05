@@ -10,8 +10,8 @@ const Projects = () => {
         My Projects
         <div
           className={styles.temp}
-          data-aos="zoom-in-right"
-          data-aos-duration="1500"
+          data-aos="slide-right"
+          data-aos-duration="500"
         >
           <div className={styles.project}>
             Geographic Information System Mapper

@@ -11,11 +11,7 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <section
-        className={styles.header}
-        data-aos="fade-down"
-        data-aos-duration="1000"
-      >
+      <section className={styles.header} data-aos="slide-right">
         <div className={styles.container}>
           <div className={styles.left}>
             <div>
@@ -51,8 +47,10 @@ const IndexPage = () => {
                 <img className={styles.photos} src="/email.png"></img>
                 <img className={styles.photos} src="/email.png"></img>
                 <img className={styles.photos} src="/email.png"></img>
-                <br /> Istanbul, Turkey.
-                <h5>MEF International School, Ortaköy. (2011~2014)</h5>
+                <br /> Madrid, Spain.
+                <h5>
+                  American School of Madrid, Pozuelo de Alarcón. (2017~2019)
+                </h5>
                 <img className={styles.photos} src="/email.png"></img>
                 <img className={styles.photos} src="/email.png"></img>
                 <img className={styles.photos} src="/email.png"></img>
