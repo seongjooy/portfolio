@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/Layout";
-import * as styles from "../styles/about.module.css";
+import * as styles from "../styles/skills.module.css";
 
 const About = () => {
   return (

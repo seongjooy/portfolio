@@ -16,7 +16,7 @@ const Projects = () => {
           <div className={styles.project}>
             Geographic Information System Mapper
             <Link to="/projects/mapper">
-              <img src="/gis-mapper.png" alt="" />
+              <img className={styles.preview} src="/gis-mapper.png" alt="" />
             </Link>
             <div className={styles.text}>
               Used C++ to develop a mapping software using OpenStreetMap API.
@@ -28,7 +28,7 @@ const Projects = () => {
           <div className={styles.project}>
             Septic Shock Predictor Using XGBoost
             <Link to="/projects/mapper">
-              <img src="/gis-mapper.png" alt="" />
+              <img className={styles.preview} src="/gis-mapper.png" alt="" />
             </Link>
             <div className={styles.text}>
               Developed

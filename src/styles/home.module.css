@@ -47,7 +47,7 @@
   background-color: rgb(255, 255, 255);
   padding-top: 30px;
   width: 100px;
-  height: 600px;
+  height: 95vh;
   border-radius: 20px;
   color: black;
   padding: 40px;
@@ -65,12 +65,34 @@ a {
   margin-left: 55px;
 }
 
+.btn:hover {
+  cursor: pointer;
+  background-color: #fff;
+  filter: opacity(70%);
+}
+
+.btn:active {
+  filter: brightness(80%);
+}
+
 .contactlinks {
   justify-content: center;
   color: black;
 }
 
 .displaycontent {
-  height: 62vh;
+  height: 88vh;
   color: black;
+}
+
+h5 {
+  color: black;
+}
+
+.photos {
+  width: 100px;
+  height: 70px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 30px;
 }

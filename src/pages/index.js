@@ -19,9 +19,12 @@ const IndexPage = () => {
         <div className={styles.container}>
           <div className={styles.left}>
             <div>
-              <h4>Student at the University of Toronto</h4>
-              <h4>B.A.Sc, Computer Engineering</h4>
-              <h5>seongjooyoon@gmail.com | seongjoo.yoon@mail.utoronto.ca</h5>
+              <h4>
+                Student at the University of Toronto
+                <br />
+                B.A.Sc, Computer Engineering
+                <br /> seongjooyoon@gmail.com | seongjoo.yoon@mail.utoronto.ca
+              </h4>
             </div>
 
             <img className={styles.dp} src="/github.png" alt=""></img>
@@ -40,11 +43,31 @@ const IndexPage = () => {
           </div>
           <div className={styles.right}>
             <div className={styles.displaycontent}>
-              Toronto, Ontario, Canada.
-              <br /> Madrid, Spain.
-              <br /> Seoul, South Korea.
-              <br /> Istanbul, Turkey.
-              <br />
+              <h2>
+                Toronto, Ontario, Canada.
+                <h5>
+                  University of Toronto, St. George. (2019~) <br />
+                </h5>
+                <img className={styles.photos} src="/email.png"></img>
+                <img className={styles.photos} src="/email.png"></img>
+                <img className={styles.photos} src="/email.png"></img>
+                <br /> Istanbul, Turkey.
+                <h5>MEF International School, Ortaköy. (2011~2014)</h5>
+                <img className={styles.photos} src="/email.png"></img>
+                <img className={styles.photos} src="/email.png"></img>
+                <img className={styles.photos} src="/email.png"></img>
+                <br /> Seoul, South Korea.
+                <h5>Seoul Foriegn School, Seoul. (2014~2017)</h5>
+                <img className={styles.photos} src="/email.png"></img>
+                <img className={styles.photos} src="/email.png"></img>
+                <img className={styles.photos} src="/email.png"></img>
+                <br /> Istanbul, Turkey.
+                <h5>MEF International School, Ortaköy. (2011~2014)</h5>
+                <img className={styles.photos} src="/email.png"></img>
+                <img className={styles.photos} src="/email.png"></img>
+                <img className={styles.photos} src="/email.png"></img>
+                <br />
+              </h2>
             </div>
             <div className={styles.contactlinks}>
               <a

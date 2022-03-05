@@ -8,14 +8,14 @@ const Navbar = () => {
       <Link className="navbutton" to="/">
         Home
       </Link>
-      <Link className="navbutton" to="/about">
-        About
-      </Link>
       <Link className="navbutton" to="/projects">
         Projects
       </Link>
       <Link className="navbutton" to="/experience">
         Experience
+      </Link>
+      <Link className="navbutton" to="/skills">
+        Skills
       </Link>
     </nav>
   );
